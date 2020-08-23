@@ -8,7 +8,7 @@ import CountySelectorSelector from './CountySelector'
 const useStyles = makeStyles(theme => ({
   root: {
     maxWidth: 160,
-    // border: '2px solid #ddd',
+    margin: 'auto',
     borderRadius: theme.spacing(1),
     padding: theme.spacing(1),
     boxShadow: '0px 0px 10px #ccc',
