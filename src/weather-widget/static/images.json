@@ -1,0 +1,26 @@
+{
+  "weatherStatus_icon_status_1": {
+    "name": "weatherStatus_icon_status_1",
+    "src": "./asset/images/icon/weather-status/icon-weather-1.svg"
+  },
+  "weatherStatus_icon_status_2": {
+    "name": "weatherStatus_icon_status_2",
+    "src": "./asset/images/icon/weather-status/icon-weather-2.svg"
+  },
+  "weatherStatus_icon_status_3": {
+    "name": "weatherStatus_icon_status_3",
+    "src": "./asset/images/icon/weather-status/icon-weather-3.svg"
+  },
+  "weatherStatus_icon_status_4": {
+    "name": "weatherStatus_icon_status_4",
+    "src": "./asset/images/icon/weather-status/icon-weather-4.svg"
+  },
+  "weatherStatus_icon_status_5": {
+    "name": "weatherStatus_icon_status_5",
+    "src": "./asset/images/icon/weather-status/icon-weather-5.svg"
+  },
+  "weatherStatus_icon_status_6": {
+    "name": "weatherStatus_icon_status_6",
+    "src": "./asset/images/icon/weather-status/icon-weather-6.svg"
+  }
+}
