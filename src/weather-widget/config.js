@@ -1,0 +1,1 @@
+export const DEFAULT_COUNTY = '臺北市'

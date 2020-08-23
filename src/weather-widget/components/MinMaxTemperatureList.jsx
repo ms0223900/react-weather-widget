@@ -20,6 +20,7 @@ const MinMaxTemperatureList = ({
     <Box
       display={'flex'}
       alignItems={'center'}
+      justifyContent={'center'}
     >
       <TemperatureItem temperature={minTemperature} />
       <Typography className={classes.connector}>{'-'}</Typography>

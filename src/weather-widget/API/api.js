@@ -1,0 +1,1 @@
+export const cwbApiUrl = process.env.REACT_APP_CWB_OPENDATA_36HR_WEATHER

@@ -6,6 +6,7 @@ import images from '../static/images.json'
 const useStyles = makeStyles(theme => ({
   root: {
     width: 100,
+    margin: 'auto',
     '& img': {
       display: 'block',
       width: '100%'
@@ -17,13 +18,14 @@ const WeatcherStatusIcon = ({
   wxName, wxValue
 }) => {
   const iconNum = WeatherStatusIconHandlers.getIconNumFromWxValue(wxValue)
-  const imageSrc = images[`weatherStatus_icon_status_${iconNum}`].src
+  const iconImage = images[`weatherStatus_icon_status_${iconNum}`]
   const classes = useStyles();
 
   return (
     <Box className={classes.root}>
       <img 
-        src={imageSrc}
+        src={iconImage.src}
+        alt={iconImage.name}
         title={wxName}
       />
     </Box>

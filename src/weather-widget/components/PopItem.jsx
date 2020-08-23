@@ -10,6 +10,8 @@ const useStyles = makeStyles(theme => ({
     width: 20,
   },
   pop: {
+    fontWeight: 100,
+    color: '#555',
     paddingLeft: theme.spacing(1),
   },
 }));
@@ -25,6 +27,7 @@ const PopItem = ({
         className={classes.root}
         display={'flex'}
         alignItems={'center'}
+        justifyContent={'center'}
       >
         <img 
           className={classes.popIcon}
@@ -34,7 +37,7 @@ const PopItem = ({
         />
         <Typography 
           className={classes.pop}
-          variant={'h6'}
+          variant={'body'}
         >
           {`${pop} %`}
         </Typography>
