@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import WeatcherStatusIcon from './weather-widget/components/WeatherStatusIcon';
+import MinMaxTemperatureList from './weather-widget/components/MinMaxTemperatureList';
+import WeatherWidget from './weather-widget/components/WeatherWidget';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <WeatherWidget 
+        wxName={'晴天'}
+        wxValue={1}
+        minTemperature={20}
+        maxTemperature={30}
+        pop={20}
+      />
     </div>
   );
 }

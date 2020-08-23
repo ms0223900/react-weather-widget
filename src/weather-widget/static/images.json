@@ -22,5 +22,10 @@
   "weatherStatus_icon_status_6": {
     "name": "weatherStatus_icon_status_6",
     "src": "./asset/images/icon/weather-status/icon-weather-6.svg"
+  },
+
+  "icons_weather_pop": {
+    "name": "icons_weather_pop",
+    "src": "./asset/images/icon/icon-weather-pop.png"
   }
 }
